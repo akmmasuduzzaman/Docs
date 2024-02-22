@@ -54,9 +54,9 @@ After this copy the code in predict.py, cog.yaml and utils.py in the source code
 after this you have to run this command to start the downloading of all models and give a sample run. (Before that upload an image in the folder Model, works for jpg, jpeg, png)
 
 ```
-sudo cog predict -i init_image_path = @<Imagename>.jpeg
+sudo cog predict -i init_image_path=@<Imagename>.jpeg
 ```
-
+    
 ![predictCode](assets/predictCode.png)
 
 After this wait for a while for successful completion of the application
